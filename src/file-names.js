@@ -20,7 +20,6 @@ function renameFiles(names) {
   return names.map(name => {
     if (!count[name]) {
       count[name] = 1;
-      console.log(count);
       return name;
     } else {
       const newName = `${name}(${count[name]})`;
