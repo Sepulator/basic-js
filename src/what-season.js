@@ -21,7 +21,6 @@ function getSeason(date) {
   return months[month];
 }
 
-
 module.exports = {
   getSeason
 };
